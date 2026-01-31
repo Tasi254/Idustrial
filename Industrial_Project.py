@@ -9,7 +9,7 @@ start_time =datetime(2023, 1, 1)
 data = {
     'timestamp': [start_time + timedelta(minutes=10*i) for i in range (rows)],
     'temperature': np.random.normal(65,5,rows), # mean 65
-    'vibration': np.random.normal(0.02, 0.005, rows), # mean 0.02 mm/s
+    'vibrat': np.random.normal(0.02, 0.005, rows), # mean 0.02 mm/s
     'pressure': np.random.normal(50, 2, rows), # mean 50 PSI
     'rpm': np.random.normal(1500, 50, rows) # mean 1500 RPM
 }
@@ -25,7 +25,7 @@ df.loc[1000:1050, 'temperature'] += np.linspace (0, 30, 51)
 df.loc[1040:1050, 'fail']=1
 
 # Scenario B: High vibration failure  ( rows 3000 to 3080)
-df.loc[3000:3080, 'vibration'] *= 3
+df.loc[3000:3080, 'vibrat'] *= 3
 df.loc[3070:3080, 'fail']=1
 
 # Scenario C: Pressure drop (row 4500 to 4550)
