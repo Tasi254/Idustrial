@@ -16,7 +16,7 @@ data = {
 
 
 df = pd.DataFrame(data)
-# 3. " Inject" Indusstrial failures ( The Story for conference)
+# 3. " Inject" Industrial failures ( The Story for conference)
 # We will create a failure label. 0=Healthy, 1= Failure
 df['fail']= 0
 
