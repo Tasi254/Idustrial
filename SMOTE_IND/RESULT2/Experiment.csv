@@ -1,0 +1,76 @@
+Dataset,Missing Rate,Algorithm,Accuracy,Precision,Recall,F1-score
+Mushroom,0.0,KNN,100.0,100.0,100.0,100.0
+Mushroom,0.0,Naive Bayes,91.3,91.37,91.3,91.3
+Mushroom,0.0,ANN,100.0,100.0,100.0,100.0
+Mushroom,0.05,KNN,99.95,99.95,99.95,99.95
+Mushroom,0.05,Naive Bayes,89.87,90.08,89.87,89.87
+Mushroom,0.05,ANN,99.88,99.88,99.88,99.88
+Mushroom,0.1,KNN,99.78,99.78,99.78,99.78
+Mushroom,0.1,Naive Bayes,88.08,88.48,88.08,88.08
+Mushroom,0.1,ANN,99.74,99.74,99.74,99.74
+Mushroom,0.2,KNN,99.16,99.16,99.16,99.16
+Mushroom,0.2,Naive Bayes,84.23,85.44,84.23,84.15
+Mushroom,0.2,ANN,98.89,98.89,98.89,98.89
+Mushroom,0.3,KNN,97.93,97.94,97.93,97.93
+Mushroom,0.3,Naive Bayes,80.5,82.91,80.5,80.25
+Mushroom,0.3,ANN,97.83,97.83,97.83,97.83
+Automobile,0.0,KNN,56.59,57.76,56.59,55.1
+Automobile,0.0,Naive Bayes,42.93,41.84,42.93,35.83
+Automobile,0.0,ANN,71.22,71.7,71.22,70.37
+Automobile,0.05,KNN,55.61,56.86,55.61,54.71
+Automobile,0.05,Naive Bayes,37.07,39.17,37.07,33.99
+Automobile,0.05,ANN,66.34,66.95,66.34,65.88
+Automobile,0.1,KNN,56.59,58.36,56.59,55.42
+Automobile,0.1,Naive Bayes,43.41,46.18,43.41,41.25
+Automobile,0.1,ANN,63.9,66.28,63.9,63.57
+Automobile,0.2,KNN,58.05,62.0,58.05,56.74
+Automobile,0.2,Naive Bayes,47.32,50.99,47.32,46.75
+Automobile,0.2,ANN,56.59,58.3,56.59,55.98
+Automobile,0.3,KNN,59.51,59.14,59.51,57.51
+Automobile,0.3,Naive Bayes,46.34,50.49,46.34,46.15
+Automobile,0.3,ANN,56.59,60.23,56.59,56.78
+Cleveland,0.0,KNN,57.8,50.56,57.8,53.44
+Cleveland,0.0,Naive Bayes,54.51,58.64,54.51,54.98
+Cleveland,0.0,ANN,53.82,52.09,53.82,51.41
+Cleveland,0.05,KNN,58.45,50.99,58.45,53.97
+Cleveland,0.05,Naive Bayes,52.85,56.71,52.85,53.48
+Cleveland,0.05,ANN,52.51,51.11,52.51,51.14
+Cleveland,0.1,KNN,58.1,50.22,58.1,52.9
+Cleveland,0.1,Naive Bayes,50.22,54.54,50.22,50.44
+Cleveland,0.1,ANN,53.81,53.08,53.81,52.51
+Cleveland,0.2,KNN,57.12,49.59,57.12,51.6
+Cleveland,0.2,Naive Bayes,55.46,55.74,55.46,55.32
+Cleveland,0.2,ANN,50.5,50.22,50.5,49.56
+Cleveland,0.3,KNN,55.45,47.58,55.45,50.49
+Cleveland,0.3,Naive Bayes,54.14,56.14,54.14,54.25
+Cleveland,0.3,ANN,53.77,52.35,53.77,52.38
+Dermatology,0.0,KNN,95.62,96.29,95.62,95.68
+Dermatology,0.0,Naive Bayes,86.62,90.03,86.62,84.18
+Dermatology,0.0,ANN,97.54,97.61,97.54,97.54
+Dermatology,0.05,KNN,95.62,96.28,95.62,95.74
+Dermatology,0.05,Naive Bayes,84.17,87.39,84.17,83.71
+Dermatology,0.05,ANN,95.9,96.01,95.9,95.88
+Dermatology,0.1,KNN,94.54,95.19,94.54,94.63
+Dermatology,0.1,Naive Bayes,90.44,92.41,90.44,90.39
+Dermatology,0.1,ANN,95.08,95.39,95.08,95.08
+Dermatology,0.2,KNN,92.63,93.99,92.63,92.79
+Dermatology,0.2,Naive Bayes,91.54,93.0,91.54,91.05
+Dermatology,0.2,ANN,95.62,95.85,95.62,95.54
+Dermatology,0.3,KNN,88.79,90.21,88.79,89.15
+Dermatology,0.3,Naive Bayes,90.15,91.27,90.15,89.78
+Dermatology,0.3,ANN,93.44,93.78,93.44,93.41
+Horse-Colic,0.0,KNN,83.44,83.7,83.44,83.26
+Horse-Colic,0.0,Naive Bayes,77.99,78.68,77.99,78.1
+Horse-Colic,0.0,ANN,83.71,83.92,83.71,83.65
+Horse-Colic,0.05,KNN,81.52,81.6,81.52,81.37
+Horse-Colic,0.05,Naive Bayes,77.44,78.17,77.44,77.52
+Horse-Colic,0.05,ANN,81.52,81.56,81.52,81.32
+Horse-Colic,0.1,KNN,81.27,81.42,81.27,81.16
+Horse-Colic,0.1,Naive Bayes,76.62,77.29,76.62,76.71
+Horse-Colic,0.1,ANN,79.64,79.57,79.64,79.37
+Horse-Colic,0.2,KNN,78.53,78.44,78.53,78.44
+Horse-Colic,0.2,Naive Bayes,75.54,76.24,75.54,75.72
+Horse-Colic,0.2,ANN,77.2,77.41,77.2,77.0
+Horse-Colic,0.3,KNN,75.26,74.93,75.26,74.75
+Horse-Colic,0.3,Naive Bayes,74.45,75.24,74.45,74.57
+Horse-Colic,0.3,ANN,74.47,74.31,74.47,73.98
